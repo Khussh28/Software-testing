@@ -24,3 +24,9 @@ test_subtraction()
 test_multiplication()
 
 print("All test cases executed successfully!")
+
+def test_division():
+    assert 20 / 5 == 4
+    print("Test 4 Passed: Division")
+
+test_division()
